@@ -1,0 +1,1 @@
+Welcome to my javascript practice repo. Here you will find some random notes and algorithm practice. All algo practice will be done in vim to avoid cheaty syntax highlighting and linter help. Thanks for stopping by.
