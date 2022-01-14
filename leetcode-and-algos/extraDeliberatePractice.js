@@ -46,3 +46,15 @@ function firstLetter(array) {
 }
 
 console.log(firstLetter(input4));
+
+function fibonacciNumbers(n) {
+  let fibonacciNumbers = [0, 1];
+  let i = 1;
+  while (fibonacciNumbers.length < n) {
+    fibonacciNumbers.push(fibonacciNumbers[i] + fibonacciNumbers[i - 1]);
+    i++;
+  }
+  return fibonacciNumbers[n - 1];
+}
+
+console.log(fibonacciNumbers(5));
